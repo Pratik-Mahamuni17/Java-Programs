@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class RemoveSpace {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String : ");
+        String s = sc.nextLine().trim();
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter String : ");
-		String s = sc.nextLine().trim();
+        StringBuilder rem = new StringBuilder(); 
 
-		StringBuilder result = new StringBuilder();
+        for (char c : s.toCharArray()) {
+            if (c != ' ') {
+                rem.append(c);
+            }
+        }
 
-		for (char c : s.toCharArray()) {
-			if (c != ' ') {
-				result.append(c);
-			}
-		}
-		s = result.toString();
-		System.out.println(s);
-	}
+        System.out.println("String without spaces: " + rem.toString());
+        sc.close();
+    }
 }
