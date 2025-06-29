@@ -17,7 +17,7 @@ public class RemoveBrackets {
 			}
 		}
 		 System.out.println("Expression after removing brackets: " + output);
-		
+		sc.close();
 	}
 
 }
