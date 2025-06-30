@@ -17,7 +17,7 @@ public class RemoveCharactersExceptAlphabet {
 			}
 		}
 		System.out.println("After removing characters : " + r);
-		
+		sc.close();
 	}
 
 }

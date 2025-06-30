@@ -27,6 +27,7 @@ public class CapitalizeFirstAndLast {
 		}
 
 		System.out.println("Result: " + result.trim());
+		sc.close();
 	}
 
 }
