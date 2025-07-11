@@ -1,4 +1,4 @@
-package com.array;
+package com.patterns;
 
 import java.util.Scanner;
 

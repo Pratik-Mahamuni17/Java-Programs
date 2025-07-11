@@ -1,4 +1,4 @@
-package com.array;
+package com.numberproblem;
 
 import java.util.Scanner;
 

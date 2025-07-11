@@ -1,4 +1,4 @@
-package com.array;
+package com.patterns;
 
 public class RightAlignedTriangle {
 
