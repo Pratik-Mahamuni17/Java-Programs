@@ -41,7 +41,7 @@ public class SortByFrequency {
 				if (freqA != freqB) {
 					return freqB - freqA; // Higher frequency comes first
 				} else {
-					return 0; // Keep order as-is if frequency is same
+					return 0; 
 				}
 			}
 		});
