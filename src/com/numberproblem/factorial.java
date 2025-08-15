@@ -1,4 +1,4 @@
-package com.abstraction;
+
 
 public class factorial {
 	public static void main(String[] args) {
@@ -12,3 +12,4 @@ public class factorial {
 	
 
 }
+
