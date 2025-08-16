@@ -9,7 +9,7 @@ public class FibonacciSeries {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter how many terms you want: ");
 		int n = sc.nextInt();
-		sc.close();
+		
 		int first = 0, second = 1;
 		System.out.print("Fibonacci Series: " + first + " " + second + " ");
 
@@ -19,6 +19,8 @@ public class FibonacciSeries {
 			first = second;
 			second = next;
 		}
+
+		sc.close();
 	}
 
 }
